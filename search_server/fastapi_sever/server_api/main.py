@@ -11,7 +11,7 @@ KAFKA_BOOTSTRAP_SERVERS = 'kafka:9092'
 SEARCH_REQUESTS_TOPIC = 'search_requests'
 SEARCH_RESULTS_TOPIC = 'search_results'
 
-DATABASE_URL = 'postgresql://postgres:PARol666@localhost/items'
+DATABASE_URL = 'postgresql://postgres:password@localhost/items'
 
 consumer = Consumer({
     'bootstrap.servers': KAFKA_BOOTSTRAP_SERVERS,
